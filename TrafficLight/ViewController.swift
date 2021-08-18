@@ -21,6 +21,8 @@ class ViewController: UIViewController {
             signal.alpha = 0.3
             signal.layer.cornerRadius = 60
         }
+        
+        startButton.layer.cornerRadius = 10
     }
 
     @IBAction func startButtonPressed() {
